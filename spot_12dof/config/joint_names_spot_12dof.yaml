@@ -1,0 +1,3 @@
+controller_joint_names: ['', 'motor_abduction_fr', 'motor_abduction_fl',
+ 'motor_abduction_hr', 'motor_abduction_hl', 'motor_hip_fr', 'motor_hip_hr', 
+ 'motor_hip_fl', 'motor_hip_hl', 'motor_knee_fr', 'motor_knee_hr', 'motor_knee_fl', 'motor_knee_hl', ]

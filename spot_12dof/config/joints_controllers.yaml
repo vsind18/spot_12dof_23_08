@@ -1,0 +1,70 @@
+spot_12dof:
+  #Publish all joint states
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 10
+  
+  #Position controllers and set up PID
+  fl_abduction_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_abduction_fl
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  fl_hip_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_hip_fl
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  fl_knee_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_knee_fl
+    pid: {p: 10 , i: 0.1, d: 0.25}
+  
+  hl_abduction_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_abduction_hl
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  hl_hip_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_hip_hl
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  hl_knee_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_knee_hl
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  fr_abduction_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_abduction_fr
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  fr_hip_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_hip_fr
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  fr_knee_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_knee_fr
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  hr_abduction_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_abduction_hr
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  hr_hip_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_hip_hr
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+  hr_knee_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: motor_knee_hr
+    pid: {p: 10 , i: 0.1, d: 0.25}
+
+
+
+

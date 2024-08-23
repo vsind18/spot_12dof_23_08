@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/sy/spotdog_test/src/champ/champ/include/**",
+        "/home/sy/spotdog_test/src/champ/champ_base/include/**",
+        "/home/sy/spotdog_test/src/champ/champ_config/include/**",
+        "/home/sy/spotdog_test/src/quadruped_9g/include/**",
+        "/home/sy/spotdog_test/src/towr/towr/include/**",
+        "/home/sy/spotdog_test/src/towr/towr_ros/include/**",
+        "/home/sy/spotdog_test/src/yocs_velocity_smoother/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

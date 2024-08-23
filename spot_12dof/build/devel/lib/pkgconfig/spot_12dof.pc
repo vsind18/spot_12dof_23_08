@@ -1,0 +1,8 @@
+prefix=/home/sy/spotdog_test/src/spot_12dof/build/devel
+
+Name: spot_12dof
+Description: Description of spot_12dof
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
